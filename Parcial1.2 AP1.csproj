@@ -92,7 +92,9 @@
     <Folder Include="DAL\Scripts\" />
     <Folder Include="Entidades\" />
     <Folder Include="Resources\" />
-    <Folder Include="UI\" />
+    <Folder Include="UI\Consultas\" />
+    <Folder Include="UI\Registro\" />
+    <Folder Include="UI\Reportes\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
