@@ -23,7 +23,7 @@ namespace Parcial1._2_AP1
 
         private void EvaluacionToolStripMenuItem_Click(object sender, EventArgs e)
         {
-           rEvaluacion ev = new rEvaluacion();
+          rEvaluacion ev = new rEvaluacion();
            ev.MdiParent = this;
            ev.Show();
         }

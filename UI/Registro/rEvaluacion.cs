@@ -36,9 +36,9 @@ namespace Parcial1._2_AP1.UI
             //regEv.Id = Convert.ToInt32(IdtextBox.Text);
             regEv.Id = IdtextBox.Text;
             regEv.Estudiante = EstudiantetextBox.Text;
-            regEv.Valor = Convert.ToDecimal(ValortextBox.Text);
-            regEv.Logrado = Convert.ToDecimal(LogradotextBox.Text);
-            regEv.Perdido = Convert.ToDecimal(PerdidotextBox.Text);
+           // regEv.Valor = Convert.ToDecimal(ValortextBox.Text);
+           // regEv.Logrado = Convert.ToDecimal(LogradotextBox.Text);
+            //regEv.Perdido = Convert.ToDecimal(PerdidotextBox.Text);
             return regEv;
 
         }
@@ -80,7 +80,7 @@ namespace Parcial1._2_AP1.UI
             Limpiar();
 
 
-            if (IdtextBox.Text == 0)
+            if (Convert.ToInt32(IdtextBox.Text) == 0)
                 paso = EvaluacionBLL.Guardar(ev);
 
 
