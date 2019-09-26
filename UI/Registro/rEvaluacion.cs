@@ -33,10 +33,10 @@ namespace Parcial1._2_AP1.UI
         private Evaluacion LlenaClase()
         {
             Evaluacion regEv = new Evaluacion();
-            //regEv.Id = Convert.ToInt32(IdtextBox.Text);
+           // regEv.Id = (IdtextBox.Text);
             regEv.Id = IdtextBox.Text;
             regEv.Estudiante = EstudiantetextBox.Text;
-           // regEv.Valor = Convert.ToDecimal(ValortextBox.Text);
+          // regEv.Valor = Convert.ToString(ValortextBox.Text);
            // regEv.Logrado = Convert.ToDecimal(LogradotextBox.Text);
             //regEv.Perdido = Convert.ToDecimal(PerdidotextBox.Text);
             return regEv;
